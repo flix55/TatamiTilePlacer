@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Felix\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Felix\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_TatamiTilePlacer.1167580547.00" t="ExcludeRecursive" />
+    <e p="E:\Project Games\GitHubUnity\TatamiTilePlacer\TatamiTilePlacer\TatamiTilePlacer" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Assets" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Shader" t="Include">
+            <e p="AmplefyShaderScript" t="Include">
+              <e p="My Transparent Shader.shader" t="Include" />
+            </e>
+            <e p="Experiment" t="Include">
+              <e p="CustomImageEffect.cs" t="Include" />
+              <e p="fireWatchFog.shader" t="Include" />
+            </e>
+            <e p="Sky" t="Include">
+              <e p="Horizon With Sun Skybox.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="BOXOPHOBIC" t="Include">
+          <e p="Atmospheric Height Fog" t="Include">
+            <e p="Core" t="Include">
+              <e p="Editor" t="Include">
+                <e p="HeightFogCreate.cs" t="Include" />
+                <e p="HeightFogGlobalInspector.cs" t="Include" />
+                <e p="HeightFogHub.cs" t="Include" />
+                <e p="HeightFogOverrideInspector.cs" t="Include" />
+                <e p="HeightFogShaderGUI.cs" t="Include" />
+                <e p="HeightFogWindows.cs" t="Include" />
+              </e>
+              <e p="Resources" t="Include">
+                <e p="Height Fog Global.shader" t="Include" />
+                <e p="Height Fog Preset.shader" t="Include" />
+              </e>
+              <e p="Runtime" t="Include">
+                <e p="HeightFogEnums.cs" t="Include" />
+                <e p="HeightFogGlobal.cs" t="Include" />
+                <e p="HeightFogOverride.cs" t="Include" />
+                <e p="HeightFogPerObject.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Utils" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Constants" t="Include">
+                <e p="Constants.cs" t="Include" />
+              </e>
+              <e p="SettingsUtils" t="Include">
+                <e p="LoadSettingsData.cs" t="Include" />
+                <e p="SaveSettingsData.cs" t="Include" />
+              </e>
+              <e p="StyledGUI" t="Include">
+                <e p="DrawInspectorBanner.cs" t="Include" />
+                <e p="DrawInspectorCategory.cs" t="Include" />
+                <e p="DrawWindowBanner.cs" t="Include" />
+                <e p="DrawWindowCategory.cs" t="Include" />
+              </e>
+              <e p="StyledInspector" t="Include">
+                <e p="StyledBannerDrawer.cs" t="Include" />
+                <e p="StyledButtonDrawer.cs" t="Include" />
+                <e p="StyledCategoryDrawer.cs" t="Include" />
+                <e p="StyledIndentDrawer.cs" t="Include" />
+                <e p="StyledInteractiveDrawer.cs" t="Include" />
+                <e p="StyledMessageDrawer.cs" t="Include" />
+                <e p="StyledPopupArrayDrawer.cs" t="Include" />
+                <e p="StyledPopupLayersDrawer.cs" t="Include" />
+                <e p="StyledRangeOptionsDrawer.cs" t="Include" />
+                <e p="StyledSpaceDrawer.cs" t="Include" />
+                <e p="StyledTextDrawer.cs" t="Include" />
+                <e p="StyledTexturePreviewDrawer.cs" t="Include" />
+              </e>
+              <e p="StyledMaterial" t="Include">
+                <e p="StyledBannerDrawer.cs" t="Include" />
+                <e p="StyledButtonDrawer.cs" t="Include" />
+                <e p="StyledCategoryDrawer.cs" t="Include" />
+                <e p="StyledDiffusionMaterialDrawer.cs" t="Include" />
+                <e p="StyledIndentDrawer.cs" t="Include" />
+                <e p="StyledInteractiveDrawer.cs" t="Include" />
+                <e p="StyledMessageDrawer.cs" t="Include" />
+                <e p="StyledSpaceDrawer.cs" t="Include" />
+                <e p="StyledTextDrawer.cs" t="Include" />
+                <e p="StyledToggleDrawer.cs" t="Include" />
+              </e>
+              <e p="StyledMono" t="Include">
+                <e p="StyledMonoBehaviourEditor.cs" t="Include" />
+                <e p="StyledScriptableObjectEditor.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="SettingsUtils" t="Include">
+                <e p="SettingsData.cs" t="Include" />
+              </e>
+              <e p="StyledInspector" t="Include">
+                <e p="StyledBanner.cs" t="Include" />
+                <e p="StyledButton.cs" t="Include" />
+                <e p="StyledCategory.cs" t="Include" />
+                <e p="StyledIndent.cs" t="Include" />
+                <e p="StyledInteractive.cs" t="Include" />
+                <e p="StyledMessage.cs" t="Include" />
+                <e p="StyledPopupArray.cs" t="Include" />
+                <e p="StyledPopupLayers.cs" t="Include" />
+                <e p="StyledRangeOptions.cs" t="Include" />
+                <e p="StyledSpace.cs" t="Include" />
+                <e p="StyledText.cs" t="Include" />
+                <e p="StyledTexturePreview.cs" t="Include" />
+              </e>
+              <e p="StyledMono" t="Include">
+                <e p="StyledMonoBehaviour.cs" t="Include" />
+                <e p="StyledScriptableObject.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Layouts" t="Include">
+              <e p="CustomLayouts.cs" t="Include" />
+            </e>
+            <e p="QuickSelect" t="Include">
+              <e p="Copy_Path.cs" t="Include" />
+              <e p="Snapper.cs" t="Include" />
+            </e>
+            <e p="TatamiPlacer" t="Include">
+              <e p="Script" t="Include">
+                <e p="ExtensionMethods.cs" t="Include" />
+                <e p="TatamiPlacerTool.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Game Action" t="Include">
+            <e p="CameraSystem" t="Include">
+              <e p="CameraMouvement.cs" t="Include" />
+              <e p="FollowTest.cs" t="Include" />
+              <e p="halfPoint.cs" t="Include" />
+            </e>
+            <e p="TilesSystem" t="Include">
+              <e p="IndividualTileSystem" t="Include">
+                <e p="IndividualTile.cs" t="Include" />
+                <e p="TileTypesEnum.cs" t="Include" />
+              </e>
+              <e p="TilePimperSystem" t="Include">
+                <e p="TilePimperSystem.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ScriptableObjectScript" t="Include">
+            <e p="LevelAtribbutesScriptableObject.cs" t="Include" />
+            <e p="TileScriptableObject.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TatamiTilePlacer.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

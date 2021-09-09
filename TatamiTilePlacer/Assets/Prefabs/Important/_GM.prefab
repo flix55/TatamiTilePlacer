@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3798087363521032851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3798087363521032848}
+  - component: {fileID: 3798087363521032863}
+  - component: {fileID: 3798087363521032850}
+  - component: {fileID: 3798087363521032849}
+  - component: {fileID: 3798087363521032862}
+  - component: {fileID: 3798087363521032861}
+  - component: {fileID: 1851900387}
+  m_Layer: 0
+  m_Name: _GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3798087363521032848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.38, y: -1.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3798087363521032863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c27ba89aa59e34ca2662c5409f45a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tile1: {fileID: 0}
+  tile2: {fileID: 0}
+  adjacencyListTop: []
+  adjacencyListBottom: []
+  adjacencyListBottomDropTiles: []
+  cubeHeight: 0
+--- !u!114 &3798087363521032850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4d2e3e6275e1b4e8542bcdfa63b9ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cubes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  anim: {fileID: 0}
+  magnatize: 0
+  MagnetBottompLastPosition: {x: 0, y: 0, z: 0}
+  MagnetTopCurentPosition: {x: 0, y: 0, z: 0}
+  MagnetTopLastPosition: {x: 0, y: 0, z: 0}
+  MagnetBottompCurentPosition: {x: 0, y: 0, z: 0}
+  directionMagnetTop: {x: 0, y: 0, z: 0}
+  directionMagnetBottom: {x: 0, y: 0, z: 0}
+  adjacencyListTopLatPosition: []
+  adjacencyListBottomLatPosition: []
+  tilefinder: {fileID: 0}
+  goingBack: 0
+--- !u!114 &3798087363521032849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc01cdce4010b548aaeb5aaa70739d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideMouse: 0
+  tilesSkin: {fileID: 2973576712999684680, guid: 8e39f8622f1717a47a54f84516eb87d3,
+    type: 3}
+--- !u!114 &3798087363521032862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed9ff48dceaf7b49b39cc5ba6f49d7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3798087363521032861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6300f18d3bca8ae4c95b83f6671f9919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapGrid: 1
+--- !u!114 &1851900387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798087363521032851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87400472345b2f4a987ab1e56bddad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 4.478909
+      outSlope: 4.478909
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.025440313
+    - serializedVersion: 3
+      time: 0.50305676
+      value: 0.913534
+      inSlope: 0.33438993
+      outSlope: 0.33438993
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.1464534
+      outSlope: 0.1464534
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20871241
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
